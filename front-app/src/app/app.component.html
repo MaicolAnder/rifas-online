@@ -1,0 +1,18 @@
+<div>
+  <header>
+    <h1>Sistema de Rifas</h1>
+  </header>
+  <p>{{type.message}}</p>
+</div>
+
+<div>
+  @if (type.type === 'SHOW_GRID')
+  {
+      <app-number-grid  ></app-number-grid>
+  }
+  @if (type.type === 'SHOW_USER_FORM')
+  {
+      <app-user-form  ></app-user-form>
+  }
+</div>
+<router-outlet />

@@ -1,0 +1,20 @@
+./back-app/node_modules
+./front-app/node_modules
+/back-app/node_modules
+/front-app/node_modules
+
+# Compiled output
+/back-app/dist
+/back-app/tmp
+/back-app/out-tsc
+/back-app/bazel-out
+
+# Compiled output
+/front-app/dist
+/front-app/tmp
+/front-app/out-tsc
+/front-app/bazel-out
+
+# Miscellaneous
+/back-app/.angular
+/front-app/.angular
